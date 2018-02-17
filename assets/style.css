@@ -1,17 +1,17 @@
 
 /*Bio*/
-.author_bio_section{
+.awai_author_bio_section{
     background: none repeat scroll 0 0 #F5F5F5;
     padding: 15px;
     border: 1px solid #ccc;
 }
 
-.author_name{
+.awai_author_name{
     font-size:16px;
     font-weight: bold;
 }
 
-.author_details img {
+.awai_author_details img {
     border: 1px solid #D8D8D8;
     border-radius: 50%;
     float: left;
