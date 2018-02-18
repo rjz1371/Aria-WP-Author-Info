@@ -13,7 +13,7 @@ License: GPL2
 
 //    Bio
 
-function wpb_author_info_box( $content ) {
+function awai_wpb_author_info_box( $content ) {
 
     global $post;
 
@@ -65,13 +65,13 @@ function wpb_author_info_box( $content ) {
 }
 
 // Add our function to the post content filter
-add_action( 'the_content', 'wpb_author_info_box' );
+add_action( 'the_content', 'awai_wpb_author_info_box' );
 
 // Allow HTML in author bio section
 remove_filter('pre_user_description', 'wp_filter_kses');
 
 
-function add_theme_scripts() {
+function awai_add_theme_scripts() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
 
     wp_enqueue_style( 'slider', plugin_dir_url( __FILE__ ) . 'assets/style.css', array(), '1.1', 'all');
@@ -82,4 +82,4 @@ function add_theme_scripts() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
-add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'awai_add_theme_scripts' );
