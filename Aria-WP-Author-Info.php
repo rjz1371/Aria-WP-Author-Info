@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Aria WP Author Info
-Plugin URI: https://ariapadweb.ir/
+Plugin URI: https://ariapadweb.ir/aria-wp-author-info-plugin-display-wordpress-writer-information/
 description: View author information in posts
 Version: 1.0
 Author: Mr. shemsad amiri khorasani
-Author URI: http://takpar.blog.ir/
+Author URI: https://ariapadweb.ir/
 License: GPL2
 */
 

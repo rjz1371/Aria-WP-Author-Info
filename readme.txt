@@ -1,4 +1,4 @@
-=== Conversion of Rial to Toman for Easy Digital Downloads (EDD) ===
+=== Aria WP Author Info ===
 
 Contributors: https://profiles.wordpress.org/ariapadweb
 Plugin Name: Aria WP Author Info
